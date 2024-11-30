@@ -1,0 +1,58 @@
+# IntelliJ IDEA-specific files
+.idea/
+*.iml
+*.iws
+
+# Build output directories
+out/
+build/
+target/
+
+# Dependency caches and artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.~lock.*
+
+# Java-specific files
+/.settings/
+/.project
+/.classpath
+
+# Maven-specific files
+/.mvn/wrapper/maven-wrapper.jar
+/.mvn/wrapper/maven-wrapper.properties
+
+# Gradle-specific files
+.gradle/
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Node.js-specific files (if applicable)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Exclude coverage reports
+coverage/
+lcov-report/
+
+# Exclude test results
+/test-results/

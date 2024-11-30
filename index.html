@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sortable Units List</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="js/fetch-units.js"></script> <!-- Link to external JavaScript file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+<h1>Available Units</h1>
+<table id="units-table">
+    <thead>
+    <tr>
+        <th>Building</th>
+        <th>Apartment</th>
+        <th>Floor Plan</th>
+        <th>Floor Number</th>
+        <th>Virtual Tour</th>
+        <th>Bedrooms</th>
+        <th>Bathrooms</th>
+        <th>Square Feet</th>
+        <th>Available Date</th>
+        <th>Starting Price</th>
+        <th>Lease Term</th>
+    </tr>
+    <tr>
+        <th><input type="text" placeholder="Search Building"></th>
+        <th><input type="text" placeholder="Search Apartment"></th>
+        <th></th>
+        <th><input type="text" placeholder="Search Floor Number"></th>
+        <th><input type="text" placeholder="Search Virtual Tour"></th>
+        <th><input type="text" placeholder="Search Bedrooms"></th>
+        <th><input type="text" placeholder="Search Bathrooms"></th>
+        <th><input type="text" placeholder="Search Square Feet"></th>
+        <th><input type="text" placeholder="Search Available Date"></th>
+        <th><input type="text" placeholder="Search Price"></th>
+        <th><input type="text" placeholder="Search Lease Term"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Data will be dynamically populated here -->
+    </tbody>
+</table>
+</body>
+</html>
