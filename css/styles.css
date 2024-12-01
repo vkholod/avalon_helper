@@ -1,0 +1,37 @@
+/* File: styles.css */
+.highlight-red {
+    background-color: #ffcccb; /* Light red */
+    color: #7a0000; /* Dark red text */
+}
+
+.highlight-green {
+    background-color: #ccffcc; /* Light green */
+    color: #006600; /* Dark green text */
+}
+
+.highlight-yellow {
+    background-color: #ffffcc; /* Light yellow */
+    color: #666600; /* Dark yellow text */
+}
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
